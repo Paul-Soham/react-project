@@ -1,15 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Resturent from './component/Basics/Resturent'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div><h1>Hello World</h1>
-        <h2>Welcome to my react project</h2>
-        </div>
-      </header>
-    </div>
-  );
+    <>
+    <Resturent/>
+    </>
+  )
 }
 
-export default App;
+export default App
